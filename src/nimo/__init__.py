@@ -18,7 +18,9 @@ def process_path(path_s: str) -> None:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(
+        description="A simple script to painlessly create directories and files."
+    )
     parser.add_argument(
         "-c",
         "--cwd",
