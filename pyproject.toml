@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">= 3.8"
 
 [project.scripts]
-nimo = "nimo.__main__:main"
+nimo = "nimo:main"
 
 [build-system]
 requires = ["hatchling"]
